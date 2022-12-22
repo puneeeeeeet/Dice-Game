@@ -1,3 +1,7 @@
+
+
+document.querySelector(".btn").addEventListener("click", game);
+function game(){
 var randomNumber1 = Math.random();
 randomNumber1 = (randomNumber1*6)+1;
 
@@ -31,4 +35,5 @@ else if(randomNumber1 > randomNumber2){
 else{
 
   document.querySelector("h1").innerHTML = "Its a tie";
+}
 }
