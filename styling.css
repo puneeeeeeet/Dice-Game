@@ -1,9 +1,47 @@
-.lol{
-  font-size: 10rem;
-  font-weight: bold;
-  color: green;
+body{
+  background-image: url("https://1.bp.blogspot.com/-xiVYHR20FWc/U0KW4m9nJfI/AAAAAAAAB3w/2ur2r1KRYGM/s1600/rolling-dice.jpg");
+  background-size: cover;
 }
-.btns{
-  background-color: yellow;
+.container{
+  width: 1000px;
+  height: 600px;
+text-align: center;
+margin-left: 200px;
+}
+.divi{
+  
+    width:300px; 
+    float:left;  
+    height: 300px;
+    margin: 50px;
+  padding-left: 80px;
+  padding-top: 30px;
+}
+.divi2{
+  
+  width:300px; 
+  float:right;  
+  height: 300px;
+  margin: 50px;
+  padding-right: 80px;
+  padding-top: 30px;
 
+}
+.header {
+  margin-top: 100px;
+  width:1000px; 
+  float:middle; 
+  height: 50px;
+  text-align: center;
+}
+.bttn{
+  
+  text-align: center;
+}
+.btn{
+  background-image: url("https://1.bp.blogspot.com/-xiVYHR20FWc/U0KW4m9nJfI/AAAAAAAAB3w/2ur2r1KRYGM/s1600/rolling-dice.jpg");
+  padding: 10px 12px;
+  color:white;
+  font-size: 30px;
+  border-radius: 8px;
 }

@@ -21,9 +21,6 @@ var src2 = "dice"+randomNumber2+".png";
 
 var image2 = document.querySelectorAll("img")[1].setAttribute("src",src2);
 
-
-
-
 if(randomNumber2>randomNumber1){
 
   document.querySelector("h1").innerHTML = "Player 2 Wins";
